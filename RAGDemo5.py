@@ -36,8 +36,8 @@ retriever = vector_store.as_retriever(
 model = ChatOpenAI(
     model='gemini-2.0-flash',
     temperature=0,
-    api_key='sk-rCV1f1Z5sfNPISzoA1Fd7c2d35C748729eB7BdE071D1C035',
-    base_url='https://llm-hub.parcelpanel.com/v1'
+    api_key='sk-xxx',
+    base_url='https://xxx.xxx.com/v1'
 )
 
 # 2. 设计提示模板

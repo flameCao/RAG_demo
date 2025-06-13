@@ -4,7 +4,7 @@ from langchain.docstore.document import Document
 import numpy as np
 
 # 初始化嵌入模型（需替换为有效API Key）
-embeddings = BaichuanTextEmbeddings(baichuan_api_key="sk-3f2aefd9391fcaed4c8af92fda68ffff")
+embeddings = BaichuanTextEmbeddings(baichuan_api_key="sk-xxx")
 
 # 创建分块器（方案1：单句嵌入，buffer_size=0）
 text_splitter = SemanticChunker(
